@@ -1,24 +1,34 @@
-# exercises
+# exercises-app
 
-## Project setup
+### Возможности
+Просмотр упражнений в табличном формате.
+Добавление упражнений.
+Удаление упражнений.
+Редактирование существующих упражнений.
+Поиск и фильтрация упражнений по названию, типу и уровню сложности.
+Адаптивный дизайн с использованием SCSS.
+
+### Используемые технологии
+Vue 3
+TypeScript
+Vuex
+Vue Router
+SCSS
+
+
+## Установка и запуск
+
+### Установите зависимости:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Запуск приложения
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Сборка приложения
 ```
 npm run build
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
