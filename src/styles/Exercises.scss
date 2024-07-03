@@ -1,0 +1,56 @@
+@import '@/styles/variables.scss';
+
+.exercise-table {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: left;
+    }
+    td {
+      height: 36px;
+      .form-button {
+        padding: 4px;
+        margin: 0 2px;
+      }
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  }
+  &__filters {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .filters__label {
+      margin: 0 10px 0 24px;
+    }
+    .filters__input, .filters__select {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      transition: border-color 0.3s ease;
+      &:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 3px #007bff;
+      }
+    }
+    input[type="text"] {
+      flex: 1;
+    }
+    select {
+      min-width: 150px;
+    }
+  }
+}
+  
